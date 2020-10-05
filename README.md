@@ -60,7 +60,7 @@ print( aws_object.List_Lambda_Functions() )
 ## List AWS RDS Databases.
 print( aws_object.List_AWS_RDS() )
 
-## List AWS EC2 CU Metrics.
+## List AWS EC2 CPU Utilization Metrics.
 print( aws_object.Get_EC2_CPU_Metrics( start_date = start_date, end_date = end_date ) )
 
 ## List AWS Trusted Advisor for Cost Optimizing.
